@@ -35,3 +35,10 @@ body {
 h2{
 	color: #ff9999;
 }
+
+#logo{
+	width: 1px;
+	right: 1869px;
+	top: 500px;
+	position: absolute;
+}
