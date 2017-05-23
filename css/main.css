@@ -1,24 +1,31 @@
-body{
-	margin: 0;
-
+* {
+    font-family: 'Droid Sans', sans-serif;
 }
 
-#parallelogram { 
-	width: 550px; 
-	height: 500px; 
-	-webkit-transform: skew(20deg); 
-	-moz-transform: skew(20deg); 
-	-o-transform: skew(20deg); 
-	background: #ff4d4d;
+
+/*Body and background*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #F3F3F5;
+}
+
+#forma{
+    border-bottom: 744px solid #ff4d4d;
+	border-left: 453px solid transparent;
+	border-right: 0px solid transparent;
+	height: 0;
+	width: 560px;
 	position: relative;
-	left: 40px;
-	 } 
-img{
-	width: 100%;
-	padding: 0;
-	position: absolute;
-	left: 207px;
-	bottom: 348px;
-
+	left: 1257px;
+	bottom: -374px;
 }
-
+#rectangulo {
+	width: 1000px;
+	height: 742px;
+	background-color: #ff8080;
+	right: 1025px;
+	top: 374px;
+	position: absolute;
+}
