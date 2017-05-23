@@ -1,9 +1,4 @@
-* {
-    font-family: 'Droid Sans', sans-serif;
-}
 
-
-/*Body and background*/
 
 body {
     margin: 0;
@@ -19,13 +14,24 @@ body {
 	width: 560px;
 	position: relative;
 	left: 1257px;
-	bottom: -374px;
+	bottom: -369px;
 }
 #rectangulo {
 	width: 1000px;
 	height: 742px;
 	background-color: #ff8080;
 	right: 1025px;
-	top: 374px;
+	top: 372px;
 	position: absolute;
+}
+
+.texto{
+	font-size: 30px;
+	right: 505px;
+	top: 424px;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	color: #ff9999;
 }
